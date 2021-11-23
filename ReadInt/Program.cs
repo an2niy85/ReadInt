@@ -24,7 +24,7 @@ namespace ReadInt
 
             do
             {
-                Console.Write("Enter number between 0 t0 10: ");
+                Console.Write("Введите число: ");
                 True = int.TryParse(Console.ReadLine(), out number);
 
             } while (!True);
